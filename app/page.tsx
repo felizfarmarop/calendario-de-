@@ -12,9 +12,9 @@ interface Collaborator {
 }
 
 const Home: React.FC = () => {
-    const today = new Date();
-    const year = today.getFullYear();
-    const month = today.getMonth();
+    // const today = new Date();
+    // const year = today.getFullYear();
+    // const month = today.getMonth();
 
     const [collaborators, setCollaborators] = useState<Collaborator[]>([]);
     const [newCollaborator, setNewCollaborator] = useState('');
